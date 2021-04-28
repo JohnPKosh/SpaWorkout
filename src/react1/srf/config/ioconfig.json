@@ -1,0 +1,11 @@
+{
+  "AppDataPath": "E:\\devhome\\devops\\UxComponents\\src\\sample01\\uxweb\\spikes\\react1\\srf\\app-data",
+  "DataPath": "E:\\devhome\\devops\\UxComponents\\src\\sample01\\uxweb\\spikes\\react1\\srf\\data",
+  "DocumentPath": "E:\\devhome\\devops\\UxComponents\\src\\sample01\\uxweb\\spikes\\react1\\srf\\doc",
+  "TempPath": "E:\\devhome\\devops\\UxComponents\\src\\sample01\\uxweb\\spikes\\react1\\srf\\tmp",
+  "LogPath": "E:\\devhome\\devops\\UxComponents\\src\\sample01\\uxweb\\spikes\\react1\\srf\\log",
+  "CachePath": "E:\\devhome\\devops\\UxComponents\\src\\sample01\\uxweb\\spikes\\react1\\srf\\cache",
+  "ConfigPath": "E:\\devhome\\devops\\UxComponents\\src\\sample01\\uxweb\\spikes\\react1\\srf\\config",
+  "ProcessPath": "E:\\devhome\\devops\\UxComponents\\src\\sample01\\uxweb\\spikes\\react1\\srf\\pi",
+  "ResourcePrefix": null
+}
