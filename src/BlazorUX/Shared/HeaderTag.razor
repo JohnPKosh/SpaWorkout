@@ -1,0 +1,50 @@
+﻿@switch (Header.Size)
+{
+    case HeaderSize.h1:
+        <h1 @attributes="Attributes">
+            @ChildContent
+        </h1>
+        break;
+    case HeaderSize.h2:
+        <h2 @attributes="Attributes">
+            @ChildContent
+        </h2>
+        break;
+    case HeaderSize.h3:
+        <h3 @attributes="Attributes">
+            @ChildContent
+        </h3>
+        break;
+    case HeaderSize.h4:
+        <h4 @attributes="Attributes">
+            @ChildContent
+        </h4>
+        break;
+    case HeaderSize.h5:
+        <h5 @attributes="Attributes">
+            @ChildContent
+        </h5>
+        break;
+    case HeaderSize.h6:
+        <h6 @attributes="Attributes">
+            @ChildContent
+        </h6>
+        break;
+    default:
+        <h1 @attributes="Attributes">
+            @ChildContent
+        </h1>
+        break;
+}
+
+
+@code {
+  [Parameter]
+  public HeaderTagModel Header { get; set; }
+
+  [Parameter]
+  public RenderFragment ChildContent { get; set; }
+
+  [Parameter(CaptureUnmatchedValues = true)]
+  public IDictionary<string, object> Attributes { get; set; }
+}
